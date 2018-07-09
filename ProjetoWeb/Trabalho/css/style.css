@@ -1,0 +1,51 @@
+.todo{
+	width: 600px;
+}
+
+.avatar{
+  width:100%
+}
+h1{
+	font-family: arial, sans-serif;
+	font-weight: 400;
+	height: 60px;
+	font-style: black;
+	background:black;
+	line-height: 60px;
+	color: white;
+
+}
+#cantoLeft{
+	width: 300px;
+	height: 666px;
+	background: black;
+	float: left;
+	
+}
+#cantoLeft a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	padding-right: 100px;
+}
+
+#cantoLeft ul li{
+	list-style-type: none;
+	display: block;
+	padding: 15px;
+	border-bottom: 1px solid #CCC;
+}
+#cantoLeft ul li:hover{
+	background: #666;
+	transition: linear all 0.40s;
+	margin-left: 10px;
+}
+#cantoLeft ul li a:hover{
+	color: grey;
+}
+
+ #cantoRight{
+ 	width: 1000px;
+ 	height: 666px;
+	float: right;
+}
